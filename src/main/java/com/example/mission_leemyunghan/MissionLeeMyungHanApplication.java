@@ -16,7 +16,7 @@ public class MissionLeeMyungHanApplication {
     public static class TestController {
         @GetMapping("/")
         public String test() {
-            return "1week";
+            return "1week 리팩토링";
         }
     }
 
